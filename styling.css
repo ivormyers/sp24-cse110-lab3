@@ -1,7 +1,13 @@
+/*CSS makes me the opposite of happy*/
 *{ 
     background-color: hsla(348,100%,30%);
 }
 
+@media (hover: hover){
+    abbr:hover{
+        color: purple;
+    }
+}
 .people{
     border-style: dashed;
     border-color: black;
@@ -10,8 +16,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: center;
-    
+    margin: 10vh 10vw 10vh 10vw;
 
+}
+.date{
+    font-family: "Jacquard 12 Charted", system-ui;
+    font-weight: 10;
+    font-style: normal;
+    color: black;
+    font-size: larger;
 }
 
 .ab, .at{ 
@@ -19,10 +32,88 @@
     padding-right: .5cm;
     padding-top: .5cm;
     padding-bottom: .5cm;
+    margin: auto;
 }
 
 .title{
     text-align: center;
     margin-top:10px;
+    margin-bottom: auto;
+    margin-left: 10 em;
+    margin-right: 10 em;
     color: #a88932 ;
+
 }
+
+
+
+/* not working? */
+li li{
+    color: gray;
+    list-style-type: circle;
+}
+h4 > p {
+    position: absolute;
+    color : palegoldenrod;
+}
+
+h3 + h4{
+    
+    color : rgb(148, 122, 10);
+    display : inline-block;
+    padding: 2px 2px 2px 2px;
+
+}
+
+h4 ~ h5 {
+    color : color(display-p3 0.93 0.65 0.18);
+    display: block;
+}
+
+h3 {
+    color : color-mix(in srgb, red 10%, yellow 70%);
+}
+
+h3 + h4{
+    color : rgb(rgb(156, 133, 16), green, blue);
+}
+
+button[type="submit"]:hover{
+    background-color: green;
+    border : 2px solid black;
+}
+#color{
+    color : white;
+}
+
+.content{
+    margin: 0vh 10vw 0vh 10vw;
+   padding: 0 20vw 0 20 vw;
+   position: sticky;
+}
+
+.banner-img{
+    width: auto;
+    height: auto;
+    max-width: 1000px;
+    max-height: 1000px;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+a:active{
+    color: red;
+}
+
+.banner-img:has(img){
+    border: 2px solid black; 
+    padding: auto;
+    margin: auto;
+}
+.ab {
+    color : black;
+    &:hover {
+      color: red;
+    }
+  }
