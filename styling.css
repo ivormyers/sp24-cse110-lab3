@@ -1,3 +1,28 @@
 *{ 
     background-color: hsla(348,100%,30%);
 }
+
+.people{
+    border-style: dashed;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    
+
+}
+
+.ab, .at{ 
+    padding-left: .5cm;
+    padding-right: .5cm;
+    padding-top: .5cm;
+    padding-bottom: .5cm;
+}
+
+.title{
+    text-align: center;
+    margin-top:10px;
+    color: #a88932 ;
+}
