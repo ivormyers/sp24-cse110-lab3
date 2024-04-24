@@ -39,8 +39,8 @@
     text-align: center;
     margin-top:10px;
     margin-bottom: auto;
-    margin-left: 10 em;
-    margin-right: 10 em;
+    margin-left: 10em;
+    margin-right: 10em;
     color: #a88932 ;
 
 }
@@ -66,12 +66,12 @@ h3 + h4{
 }
 
 h4 ~ h5 {
-    color : color(display-p3 0.93 0.65 0.18);
+    color : color(srgb 93% 65% 18%);
     display: block;
 }
 
 h3 {
-    color : color-mix(in srgb, red 10%, yellow 70%);
+    color : color-mix(srgb, red 10%, yellow 70%);
 }
 
 h3 + h4{
@@ -88,7 +88,7 @@ button[type="submit"]:hover{
 
 .content{
     margin: 0vh 10vw 0vh 10vw;
-   padding: 0 20vw 0 20 vw;
+   padding: 0 20vw 0 20vw;
    position: sticky;
 }
 
@@ -108,7 +108,6 @@ a:active{
 
 .banner-img:has(img){
     border: 2px solid black; 
-    padding: auto;
     margin: auto;
 }
 .ab {
