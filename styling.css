@@ -66,16 +66,16 @@ h3 + h4{
 }
 
 h4 ~ h5 {
-    color : color(srgb 93% 65% 18%);
+    color : color(in srgb 93% 65% 18%);
     display: block;
 }
 
 h3 {
-    color : color-mix(srgb, red 10%, yellow 70%);
+    color : color-mix(in srgb, red 10%, yellow 70%);
 }
 
 h3 + h4{
-    color : rgb(rgb(156, 133, 16), green, blue);
+    color : rgb(156, 133, 16);
 }
 
 button[type="submit"]:hover{
