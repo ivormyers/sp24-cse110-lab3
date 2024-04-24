@@ -4,13 +4,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Myers' Meeting Minutes</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styling.css">
     </head>
     <body>
         <header class = "title">
             <h1>Myers' Meeting Minutes</h1>
             <h2>Today's Meeting: A Call To Arms</h2>
-            <h3> Date: Tuesday April 16 2024</h3>
+            <h3 class = "date"> Date: Tuesday April 16 2024</h3>
             <hr>
 
             
@@ -34,13 +37,26 @@
                 <h3><span style="color:red">Absentee:</span></h3>
                 <ul>
                     <li>James</li>
+                        <ul>
+                            <li>sick</li>
+                        </ul>
                     <li>Squash</li>
+                        <ul>
+                            <li>hospital</li>
+                        </ul>
                     <li>Sophia</li>
+                        <ul>
+                            <li>MIA</li>
+                        </ul>
                     <li>Luke</li>
+                        <ul>
+                            <li>has to walk dog</li>
+                        </ul>
                 </ul>
             </section>
             </div>
             <br>
+         <div class = "content">  
             <section>
                 <h3>Agenda:</h3>
                 <ol start="1"> 
@@ -87,7 +103,10 @@
                 <p>Jeffery motioned to review our banner colors. Presently they are <i>green and yellow</i>. Jeffery proposed 
                     switching to <em>red and gold</em>. Motion passed with 4-2 votes. 
                 </p>
-                <img src="banner.jpg" alt="Jeffery's proposed banner">
+                <div class="banner-img">
+                    <img src="banner.jpg" alt="Jeffery's proposed banner">
+                </div>
+                
             </section>     
             <section>
                 <h3>Meeting Concluded</h3>
@@ -97,7 +116,8 @@
                     <source src="Loco.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                   </video>
-            </section>           
+            </section>    
+          </div>       
         </main>
 
         <footer>
@@ -147,7 +167,7 @@
                     </select>
                     <br><br>
 
-                    <input type="submit" value="Submit">
+                    <button type="submit">Submit</button>
                 </fieldset>
             </form>
         </footer>
